@@ -8,12 +8,12 @@
       "esModuleInterop": true,
       "experimentalDecorators": true,
       "lib": ["dom", "ES2021"],
-      "moduleResolution": "Node",
+      "module": "es2020",
+      "moduleResolution": "node",
       "preserveConstEnums": true,
       "skipLibCheck": true,
       "strictNullChecks": true,
-      "target": "ES2019",
-      "module": "ES2020",
+      "target": "es2019",
       "sourceMap": true
    },
    "include": ["**/*.ts"]
